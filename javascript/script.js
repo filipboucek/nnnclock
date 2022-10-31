@@ -13,7 +13,7 @@ var updateClock = window.setInterval(function(){
     var sekundy = Math.floor((timeleft % (1000 * 60)) / 1000);
     var element = document.getElementById("countdown-clock");
     // var rawclock = document.getElementById("raw-clock");
-    rawclock.innerHTML = timeleft;
+    //rawclock.innerHTML = timeleft;
     element.innerHTML = dny + ":" + hodiny + ":" + minuty + ":" + sekundy;
   }, 1000);
 function updateText() 
